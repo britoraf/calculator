@@ -3,6 +3,11 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Add to <head> -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Michroma&display=swap"
+            rel="stylesheet"
+        />
         <title>Calculator</title>
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -13,7 +18,12 @@
 
         <main>
             <div class="container">
-                <div id="calcHeader"></div>
+                <div id="calcHeader">
+                    <p id="left">webcalc</p>
+                    <div id="right">
+                        <div id="solarPanel"></div>
+                    </div>
+                </div>
                 <div id="visor"></div>
                 <div id="keyboard"></div>
             </div>

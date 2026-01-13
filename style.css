@@ -1,5 +1,5 @@
 main {
-    background-color: burlywood;
+    background-color: darkcyan;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -12,35 +12,70 @@ main {
     flex-direction: column;
     align-items: center;
     background-color: #c8c4c3;
-    max-width: 400px;
+    width: 400px;
     aspect-ratio: 13 / 22;
-    border-radius: 18px;
+    border-bottom-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    border-color: black;
+    border: 1px solid;
+    padding: 5px;
 }
 
-.container > * {
-    height: 30px;
-    width: 300px;
-    margin: 5px;
-    border: 1px solid slategray;
+#calcHeader {
+    display: flex;
+    flex-direction: row;
+    aspect-ratio: 13 / 3;
+    box-sizing: content-box;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
-/*#calcHeader {
-    background-color: red;
-    height: 30px;
-    width: 600px;
-    margin: 5px;
+#left {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82%;
+    font-family: "Michroma", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+#right {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0px;
+}
+
+#solarPanel {
+    background-color: #ba9f72;
+    height: 62%;
+    width: 80%;
+    border: 3px solid;
+    border-color: gray;
+    border-radius: 0.5rem;
 }
 
 #visor {
-    background-color: red;
-    height: 30px;
-    width: 600px;
-    margin: 5px;
+    aspect-ratio: 13 / 5;
+    box-sizing: content-box;
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 5px;
+    border-radius: 0.5rem;
 }
 
 #keyboard {
-    background-color: red;
-    height: 30px;
-    width: 600px;
-    margin: 5px;
-}*/
+    aspect-ratio: 13 / 13;
+    box-sizing: content-box;
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 5px;
+}
