@@ -90,19 +90,20 @@ footer {
 
 #middle {
     display: flex;
-    justify-content: space-around;
+    box-sizing: border-box;
+    justify-content: space-evenly;
     width: 100%;
     border: 1px;
+    padding: 5px;
 }
 
-#sqr,
-#off {
-    margin-left: 4.16px;
+#sqr {
+    margin-right: 10px;
 }
 
 #model {
     margin-right: auto;
-    margin-left: auto;
+    margin-left: 5px;
 }
 
 #buttons {

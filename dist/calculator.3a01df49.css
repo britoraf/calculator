@@ -83,18 +83,20 @@ footer {
 }
 
 #middle {
+  box-sizing: border-box;
   border: 1px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
+  padding: 5px;
   display: flex;
 }
 
-#sqr, #off {
-  margin-left: 4.16px;
+#sqr {
+  margin-right: 10px;
 }
 
 #model {
-  margin-left: auto;
+  margin-left: 5px;
   margin-right: auto;
 }
 
